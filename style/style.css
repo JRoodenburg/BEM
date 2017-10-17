@@ -1,0 +1,36 @@
+.spel {
+    margin: 0 auto;
+    width: 50%;
+    border: 10px dashed blue;
+    padding: 3em;
+    text-align: center;
+}
+
+.results {
+    margin: 0 auto;
+    padding: 3em;
+}
+body {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text--color-red {
+    color: red;
+}
+
+.text--color-green {
+    color: green;
+}
+
+.results__text {
+    @import url('https://fonts.googleapis.com/css?family=Cinzel');
+    font-family: 'Cinzel', serif;
+    font-size: 110%;
+}
